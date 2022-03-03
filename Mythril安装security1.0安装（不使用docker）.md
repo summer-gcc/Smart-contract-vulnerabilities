@@ -100,7 +100,7 @@ tar -zxvf jdk-8u321-linux-x64.tar.gz
  
  #添加下列信息
  #set java env
-export JAVA_HOME=/usr/lib/jdk/jdk1.8.0_202
+export JAVA_HOME=/usr/lib/jdk/jdk1.8.0_321
 export JRE_HOME=${JAVA_HOME}/jre    
 export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib    
 export PATH=${JAVA_HOME}/bin:$PATH
@@ -109,8 +109,8 @@ export PATH=${JAVA_HOME}/bin:$PATH
 source /etc/profile
 
 #配置软连接
-sudo update-alternatives --install /usr/bin/java  java  /usr/lib/jdk/jdk1.8.0_202/bin/java 300   
-sudo update-alternatives --install /usr/bin/javac  javac  /usr/lib/jdk/jdk1.8.0_202/bin/javac 300 
+sudo update-alternatives --install /usr/bin/java  java  /usr/lib/jdk/jdk1.8.0_321/bin/java 300   
+sudo update-alternatives --install /usr/bin/javac  javac  /usr/lib/jdk/jdk1.8.0_321/bin/javac 300 
 
 java -version
 ```
