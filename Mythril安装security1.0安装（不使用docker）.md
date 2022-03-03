@@ -94,7 +94,7 @@ tar -zxvf jdk-8u321-linux-x64.tar.gz
  
  sudo mkdir jdk
  
- sudo mv ~/jdk1.8.0_202/usr/lib/jdk
+ sudo mv ~/jdk1.8.0_321 /usr/lib/jdk
  
  sudo vim /etc/profile
  
