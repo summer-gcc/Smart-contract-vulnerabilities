@@ -69,7 +69,7 @@ apt install -f
 dpkg -i souffle_1.6.2-1_amd64.deb
 ```
 
-注：dpkg时出现**souffle依赖于libffi6；然而：未安装软件包libffi6。 .......**，添加中科大源：
+注：dpkg时出现**souffle依赖于libffi6；然而：未安装软件包libffi6。 .......**，/etc/apt/sources.list中添加中科大源：
 
 ```
 deb http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
